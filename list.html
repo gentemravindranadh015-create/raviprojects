@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Product inventory | Ravi Product Management</title><link rel="stylesheet" href="css/style.css"></head>
+<body><div class="shell"><aside class="sidebar">
+<a class="brand" href="index.html"><span class="brand-mark">R</span><span>Ravi Products<small>INVENTORY CONTROL</small></span></a>
+<div class="nav-label">Workspace</div><nav>
+<a class="nav-link " href="index.html"><span class="nav-icon">⌂</span>Dashboard</a>
+<a class="nav-link active" href="list.html"><span class="nav-icon">▦</span>All products</a>
+<a class="nav-link " href="insert.html"><span class="nav-icon">＋</span>Add product</a>
+<a class="nav-link " href="listOne.html"><span class="nav-icon">⌕</span>Find a product</a>
+<a class="nav-link " href="update.html"><span class="nav-icon">✎</span>Update product</a>
+<a class="nav-link " href="delete.html"><span class="nav-icon">⌫</span>Delete product</a>
+<a class="nav-link" href="about.html"><span class="nav-icon">♙</span>About the creator</a>
+</nav><div class="sidebar-bottom">✦ Keep your stock organized.<br>Simple inventory, smarter decisions.</div></aside><main class="main"><header class="topbar"><div><div class="eyebrow">Ravi Product Management System</div><h1 class="page-title">Product inventory</h1><div class="subheading">Everything you stock, organized in one place.</div></div><div class="profile"><div class="avatar">R</div><div><strong>Administrator</strong><small>Inventory manager</small></div></div></header>
+<div id="notice" class="notice"></div><div class="section-head"><div><h2>All products</h2><p>Search, edit, or remove products from your inventory.</p></div><a href="insert.html" class="btn btn-primary">＋ Add product</a></div>
+<section class="panel"><div class="table-tools"><div><strong>Inventory list</strong><div class="subheading">Product details and stock status</div></div><div class="list-filters"><select id="category-filter" aria-label="Filter by category"><option value="">All categories</option><option>Electronics</option><option>Office</option><option>Accessories</option><option>Home</option><option>Clothing</option><option>Food &amp; Grocery</option><option>Other</option></select><div class="search"><span>⌕</span><input id="product-search" type="search" placeholder="Search name or product ID…"></div></div></div><div class="table-wrap"><table><thead><tr><th>Product</th><th>Category</th><th>Price</th><th>In stock</th><th>Reorder at</th><th>Actions</th></tr></thead><tbody id="product-rows"><tr><td colspan="6" class="empty">Loading products…</td></tr></tbody></table></div></section>
+<div class="footer">© 2026 Ravi Product Management System · Built for smarter stock management</div></main></div><script src="js/app.js"></script></body></html>

@@ -1,0 +1,8 @@
+{
+  "name": "ravi-product-management-system",
+  "version": "1.0.0",
+  "description": "Ravi Product Management System - CRUD website using HTML, CSS, JavaScript, Node.js and MySQL 8",
+  "main": "server.js",
+  "scripts": { "start": "node server.js" },
+  "dependencies": { "express": "^4.21.2", "mysql2": "^3.14.0" }
+}

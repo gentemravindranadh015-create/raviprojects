@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Remove a product | Ravi Product Management</title><link rel="stylesheet" href="css/style.css"></head>
+<body><div class="shell"><aside class="sidebar">
+<a class="brand" href="index.html"><span class="brand-mark">R</span><span>Ravi Products<small>INVENTORY CONTROL</small></span></a>
+<div class="nav-label">Workspace</div><nav>
+<a class="nav-link " href="index.html"><span class="nav-icon">⌂</span>Dashboard</a>
+<a class="nav-link " href="list.html"><span class="nav-icon">▦</span>All products</a>
+<a class="nav-link " href="insert.html"><span class="nav-icon">＋</span>Add product</a>
+<a class="nav-link " href="listOne.html"><span class="nav-icon">⌕</span>Find a product</a>
+<a class="nav-link " href="update.html"><span class="nav-icon">✎</span>Update product</a>
+<a class="nav-link active" href="delete.html"><span class="nav-icon">⌫</span>Delete product</a>
+<a class="nav-link" href="about.html"><span class="nav-icon">♙</span>About the creator</a>
+</nav><div class="sidebar-bottom">✦ Keep your stock organized.<br>Simple inventory, smarter decisions.</div></aside><main class="main"><header class="topbar"><div><div class="eyebrow">Ravi Product Management System</div><h1 class="page-title">Remove a product</h1><div class="subheading">Delete discontinued or incorrectly entered items safely.</div></div><div class="profile"><div class="avatar">R</div><div><strong>Administrator</strong><small>Inventory manager</small></div></div></header>
+<div id="notice" class="notice"></div><section class="panel"><div class="panel-pad"><div class="section-head" style="margin-top:0"><div><h2>Delete inventory item</h2><p>This action permanently removes the selected product record.</p></div><span class="stat-icon" style="background:#fff0f2">⌫</span></div><div class="field"><label for="delete-id">Product ID</label><select id="delete-id" required><option value="">Loading product IDs from database…</option></select></div><div class="form-actions"><button class="btn btn-danger" onclick="deleteProduct()">⌫ Delete product</button><a href="list.html" class="btn btn-quiet">Cancel</a></div><p class="field-help" style="margin-top:18px">Tip: Use <a href="listOne.html" style="color:var(--blue);font-weight:700">Find a product</a> to confirm the product ID before deleting.</p></div></section><section class="quick-card" style="margin-top:18px"><div class="q-icon">🛡️</div><strong>Delete carefully</strong><p>Deleted product details cannot be recovered automatically. Confirm the ID before proceeding.</p></section>
+<div class="footer">© 2026 Ravi Product Management System · Built for smarter stock management</div></main></div><script src="js/app.js"></script></body></html>
